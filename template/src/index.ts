@@ -1,5 +1,5 @@
 import { app } from './app';
-import { logger } from '@seed/lib';
+import { logger } from './logger';
 import { config } from './config';
 
 async function start() {

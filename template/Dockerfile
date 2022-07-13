@@ -1,5 +1,5 @@
 # RUN DOCKER BUILD FROM ROOT OF THE WORKSPACE!!!
-FROM node:16.4.2-buster-slim
+FROM node:16.16.0-buster-slim
 
 ENV UV_THREADPOOL_SIZE 64
 ENV NODE_ENV=production
